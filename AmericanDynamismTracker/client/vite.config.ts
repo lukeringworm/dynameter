@@ -9,7 +9,6 @@ export default defineConfig({
       "@": path.resolve(new URL(".", import.meta.url).pathname, "src"),
     },
   },
-  root: "./",
   build: {
     outDir: "dist",
     emptyOutDir: true,
